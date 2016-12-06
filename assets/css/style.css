@@ -480,7 +480,7 @@ body {
 
 #page {
   padding-top: 1rem;
-  background-image: url("/assets/images/buildings-desktop.jpg");
+  background-image: url("../images/buildings-desktop.jpg");
   background-size: cover;
   background-position: bottom 15% center;
   background-repeat: no-repeat;
