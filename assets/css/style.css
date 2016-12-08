@@ -476,10 +476,10 @@ body {
   flex-direction: column;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; }
+  min-height: 100%; }
 
 #page {
-  padding-top: 1rem;
+  padding-top: 2rem;
   background-image: url("../images/buildings-desktop.jpg");
   background-size: cover;
   background-position: bottom 15% center;
@@ -498,16 +498,27 @@ body {
   padding: 1rem; }
 
 .white-popup {
-  position: relative;
   background: #FFF;
   border-top: 6px solid #0d405c;
   padding: 0 20px;
   width: 100%;
-  margin-top: 140px; }
-  @media screen and (min-aspect-ratio: 16 / 10) {
+  overflow: auto; }
+  @media screen and (min-width: 40rem) {
     .white-popup {
-      margin: 50px 0 0; } }
+      position: absolute;
+      top: 130px;
+      bottom: 60px;
+      z-index: 999; }
+      .white-popup p {
+        font-size: 14px; } }
 
+@media screen and (min-width: 40rem) {
+  .mfp-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; } }
 .mfp-container {
   padding: 0; }
 
