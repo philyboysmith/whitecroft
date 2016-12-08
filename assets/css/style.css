@@ -502,7 +502,8 @@ body {
   border-top: 6px solid #0d405c;
   padding: 0 20px;
   width: 100%;
-  overflow: auto; }
+  overflow: auto;
+  text-align: justify; }
   @media screen and (min-width: 40rem) {
     .white-popup {
       position: absolute;
