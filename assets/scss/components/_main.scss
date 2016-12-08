@@ -10,6 +10,7 @@ main {
         padding-bottom: 1rem;
     }
     p {
+        display: inline-block;
     	margin-bottom: 0;
         max-width: 40em;
         @include respond-min($tablet) {
